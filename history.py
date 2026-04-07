@@ -21,7 +21,7 @@ async def clear_history_command(update: Update, context: ContextTypes.DEFAULT_TY
     
     if len(args) != 1:
         await update.message.reply_text(
-            "❌ Format မှားနေပါပြီ!\n"
+            "❌ Format မှားနေပါပြီ!\n",
             parse_mode="Markdown"
         )
         return
